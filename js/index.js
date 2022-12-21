@@ -1,9 +1,5 @@
-let app = angular.module("MyApp",[])
+let app = angular.module("app",[])
 
-$scope.fee = 250;
-
-app.controller("form", function($scope){
+app.controller("AppController",($scope)=>{
     
-}
-
-)
+})
